@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 200px;
+  max-height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.inner-container {
+  display: flex;
+  width: 100%;
+}
+.inner-container img {
+  width: 200px;
+  height: 100px;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.backward {
+  left: 0px;
+}
+.forward {
+  right: 0px;
+}
